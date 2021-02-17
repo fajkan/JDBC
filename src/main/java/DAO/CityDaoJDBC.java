@@ -7,6 +7,7 @@ import java.util.List;
 
 public class CityDaoJDBC implements CityDao{
 
+    City results = new City();
     public static Connection mySqlConnection() {
         Connection connection = null;
         try {
@@ -33,7 +34,7 @@ public class CityDaoJDBC implements CityDao{
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
+        return results;
     }
 
     @Override
