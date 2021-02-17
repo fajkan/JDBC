@@ -1,4 +1,4 @@
-package org.example;
+package DAO;
 
 public abstract class CityDaoJDBC implements CityDao{
 

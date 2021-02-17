@@ -1,4 +1,6 @@
-package org.example;
+package DAO;
+
+import model.City;
 
 import java.util.List;
 
